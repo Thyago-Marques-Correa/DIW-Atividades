@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #F3E4DD, #FFFFFF);
+    background-attachment: fixed;
+}
+
+body {
+    text-align: justify;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 30pt;
+    color: black;
+}
+
+mark {
+    background-color: lime;
+}

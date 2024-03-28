@@ -1,0 +1,98 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #282828;
+    height: 56px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.pesquisa {
+    color: #fff;
+    font-size: 15px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header form {
+    display: flex;
+    flex: 1;
+    margin-left: 16px;
+}
+
+header input[type="text"] {
+    flex: 1;
+    height: 30px;
+    margin-right: 8px;
+}
+
+aside {
+    width: 240px;
+    background-color: #f9f9f9;
+    height: 100vh;
+    overflow: auto;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+aside img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+aside form {
+    margin-bottom: 16px;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 16px;
+}
+
+main {
+    margin-left: 240px;
+    padding: 16px;
+}
+
+div {
+
+    display: inline-block;
+
+    width: calc 33% - 16px;
+
+    background-color: #ddd;
+
+    vertical-align: top;
+
+    margin: 8px;
+
+    border: 1px solid #ddd
+}
+
+div p img {
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 10
+}
