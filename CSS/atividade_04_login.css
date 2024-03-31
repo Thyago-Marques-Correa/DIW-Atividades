@@ -1,0 +1,61 @@
+body {
+    background-color: #000033;
+    font-family: Arial, sans-serif;
+    color: white !important;
+}
+
+.letreiro{
+    text-align: center;
+    color: white !important;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 Arial, sans-serif;
+    color: white;
+}
+
+.bg {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover; 
+}
+
+.content {
+    position: relative;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
