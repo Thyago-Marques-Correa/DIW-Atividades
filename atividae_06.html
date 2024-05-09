@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<!--define os dados ocultos sobre a pagina-->
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="IMG/Atividade_06_icone.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="CSS/atividade_06.css">
+</head>
+
+<body>
+    <!--define o fundo da pagina-->
+    <div class="video-container">
+        <video autoplay loop muted id="video-bg">
+            <source src="IMG/Menu.mp4" type="video/mp4">
+        </video>
+    </div>
+    </div>
+    <!--define a caixa de interação-->
+    <div class="caixa">
+        <h1>Conversor de Moedas</h1>
+        <input id="valor" type="number" placeholder="Valor a ser convertido">
+        <p>De</p>
+        <select id="moedaOrigem">
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="JPY">Iene Japonês</option>
+            <option value="BRL">Real Brasileiro</option>
+        </select>
+        <p>Para</p>
+        <select id="moedaDestino">
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            <option value="GBP">Libra Esterlina</option>
+            <option value="JPY">Iene Japonês</option>
+            <option value="BRL">Real Brasileiro</option>
+        </select>
+        <button onclick="converter()">Converter</button>
+        <p id="resultado"></p>
+    </div>
+    <!--define a função de voltar a ultima pagina carregada-->
+    <button onclick="Voltar()" class="voltar">Voltar</button>
+    <script src="JS/Entrega_06.js"></script>
+</body>
+
+</html>
